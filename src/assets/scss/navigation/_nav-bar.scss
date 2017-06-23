@@ -1,0 +1,26 @@
+#hamburger-menu{
+  display: none;
+  height: 100%;
+  float: right;
+}
+
+.nav-bar{
+  width: 100%;
+  overflow: hidden;
+  height: 7vh;
+  background-color: rgb(32,32,32);
+}
+
+.nav-button{
+  //background-color: red;
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+
+
+.active-nav{
+  background-color: purple;
+}

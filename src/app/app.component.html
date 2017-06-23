@@ -1,5 +1,25 @@
-<h1>
-  {{title}}
-</h1>
+
+
+
+
+<div class="nav-bar">
+
+  <button class="hamburger hamburger--collapse" type="button" onclick="mrclick()" id="hamburger-menu">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+
+<button type="button" name="button"
+[routerLink]="['/']" class="nav-button"
+id="inicio-nav">Inicio</button>
+<button type="button" name="button"
+[routerLink]="['/acerca']"class="nav-button"
+id="acerca-nav">Acerca</button>
+<button type="button" name="button" [routerLink]="['/servicios']"class="nav-button" id="servicios-nav">Servicios</button>
+<button type="button" name="button" [routerLink]="['/calculadora']"class="nav-button" id="calculadora-nav">Calculadora</button>
+<button type="button" name="button" [routerLink]="['/contacto']"class="nav-button" id="contacto-nav">Contacto</button>
+
+</div>
 
 <router-outlet></router-outlet>
